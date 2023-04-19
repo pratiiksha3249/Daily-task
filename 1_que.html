@@ -1,0 +1,26 @@
+<html>
+<body>
+<form>
+ENTER RADIUS:
+<input type="text"id="t1"><br>
+VALUME:
+<input type="text" id="t2" ><br>
+<input type="button" value="okk" onclick="valume()">
+
+</form>
+</body>
+</html>
+<script>
+
+function valume()
+{
+
+ var r=document.getElementById("t1").value;
+
+r=parseFloat(r);
+var ans=3/4*3.14*r*r;
+document.getElementById("t2").value=ans;
+
+}
+
+</script>
