@@ -1,0 +1,78 @@
+body{
+
+background-color:pink;
+background-image:url("");
+
+
+}
+
+.aaa{
+	
+	text-align:center;
+	color:blue;
+	
+	width:50%;
+	height:30%;
+   margin-left:25%;
+   margin-right:10%;
+   background-color:skyblue;
+   border-style:solid;
+   border-color:orange;
+   border-width:4px;
+   	
+}
+#a{
+	font-family:mv boli;
+	font-size:15px;
+	color:brown;
+	
+}
+#b{
+	font-family:mv boli;
+	font-size:11px;
+	color:green;
+	
+}
+
+#c{
+	font-family:mv boli;
+	font-size:13px;
+	color:orange;
+	
+}
+
+#d{
+	font-family:italic;
+	font-size:15px;
+	color:red;
+	
+}
+
+#e{
+	font-family:arial;
+	font-size:18px;
+	color:blue;
+	
+}
+#f{
+	font-family:elephant;
+	font-size:16px;
+	color:pink;
+	
+}
+
+#h{
+
+	font-family:elephant;
+	color:blue;
+		
+}
+#pp{
+	
+	text-align:center;
+	
+	
+	
+}
+
+
