@@ -1,0 +1,29 @@
+
+
+
+<html>
+<body>
+    <title>star</title>
+</head>
+<body>
+  Enter Limit:
+  <input type="text" id="t1"><br>
+  <input type="button" value="print_star" onclick="print()"><br>
+  <script>
+    function print(){
+var num=document.getElementById("t1").value;
+num =parseInt(num);
+var i;
+var j;
+for (i=1;i<=num;i++){
+    for(j=1;j<=i;j++){
+        document.write("*");
+    }
+    document.write("<br>");
+}
+
+    }
+  </script>
+  
+</body>
+</html>
