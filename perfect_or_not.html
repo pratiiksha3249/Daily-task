@@ -1,0 +1,34 @@
+<body>
+ENTER NUMBER:
+<input type="text"id="d1">
+<input type="button" value="perfet_or_not" onclick="digit()">
+</body>
+</html>
+
+<script>
+function digit(){
+
+var n=document.getElementById("d1").value;
+n=parseInt(n);
+ var i;
+ var sum=0;
+ var num=n;
+ for (i=1;i<n;i++){
+ if(n%i==0){
+ sum=sum+i;
+ }
+ 
+ }
+ if(num===sum){
+ document.write('num is perfet...');
+ }
+ else
+ {
+ document.write('num is no perfet...');
+ 
+ }
+ 
+ 
+
+}
+</script>
