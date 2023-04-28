@@ -1,0 +1,24 @@
+<body>
+ENTER NUMBER:
+<input type="text"id="p1">
+<input type="button" value="sum_of_d" onclick="digit()">
+</body>
+</html>
+<script>
+function digit(){
+
+var n=document.getElementById("p1").value;
+n=parseInt(n);
+var sum=0;
+var d;
+while(n>0){
+
+d=n%10;
+n/10;
+sum=parseInt(sum+d);
+
+}
+document.write(sum);
+
+}
+</script>
