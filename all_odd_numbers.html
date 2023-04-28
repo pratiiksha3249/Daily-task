@@ -1,0 +1,25 @@
+<body>
+ENTER NUMBER:
+<input type="text"id="d1">
+<input type="button" value="all_odd_num" onclick="digit()">
+</body>
+</html>
+
+<script>
+function digit(){
+
+var n=document.getElementById("d1").value;
+n=parseInt(n);
+
+for (var i=0;i<=n;i++){
+
+if(i%2==1){
+
+document.write("<br>"+i);
+
+}
+
+}
+
+}
+</script>
